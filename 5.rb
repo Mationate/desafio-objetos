@@ -34,10 +34,13 @@ class Cuadrado
     "El area del cuadrado es#{@lado * @lado}"
   end
 end
-puts Cuadrado.new(10).lados
-puts Cuadrado.new(10).perimetro
-puts Cuadrado.new(10).area
 
-puts Rectangulo.new(5,10).lados
-puts Rectangulo.new(5,10).perimetro
-puts Rectangulo.new(5,10).area
+cuadrado = Cuadrado.new(10)
+cuadrado.lados
+cuadrado.perimetro
+cuadrado.area
+
+rectangulo = Rectangulo.new(5,10)
+rectangulo.lados
+rectangulo.perimetro
+rectangulo.area
